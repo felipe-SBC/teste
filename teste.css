@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin-left: 2%;
+}
+  
+.tabela {
+    flex: none;
+    margin-right: 19%; /* Espaçamento opcional entre as tabelas */
+}
+  
+.tabela:last-child {
+    margin-right: 0; /* Remove o espaçamento da última tabela */
+}
+
+table {
+    width: 200%;
+    height: 170%;
+    margin-right: px;
+    border: 0.5px solid #000;
+    border-spacing: 0rem;
+    border-collapse: collapse;
+} 
+
+table thead{
+    background-color: rgb(34, 34, 34);
+}
+
+table thead tr th{
+    color: #fff;
+    padding: 7px 5px;
+    text-align: center;
+    font-size: 20px;
+    border: 0 solid rgb(0, 0, 0);
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+
+table thead tr th:last-child{
+    border-right-width: 0px;
+}
+
+table tbody tr td{
+    text-align: center;
+    border: 0 solid rgb(0, 0, 0); 
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
