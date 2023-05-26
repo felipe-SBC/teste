@@ -10,26 +10,24 @@
     <title>Professor</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a style="color: white" class="navbar-brand" th:href="@{/}">AutoNotas</a>	  
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		  <ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-			  <a class="nav-link"><span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link"></a>
-			</li>
-		  </ul>
-		  <form class="form-inline">
-				<button class="btn btn-outline-light" type="button">
-					<a class="navbar-brand" th:href="@{/}">Sair</a>
-				</button>
-			</label>
-		  </form>
-		</div>
-	  </nav>
-    <h1>Página Professor</h1>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#page-top">AutoNotas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" th:href="@{/login}">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" th:href="@{/cadastro}">Cadastro</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- <div style="position: relative;">
+        <img style="height: 550px; top: 60%; left: 50%; transform: translate(-50%, -50%); z-index: 2;" src="/teste/LousaDark.png" alt="Lousa escolar">
+    </div> -->
+
     <div class="bloco">
         <div class="tabela tabela1">
           <table>
