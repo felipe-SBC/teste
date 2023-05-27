@@ -15,6 +15,16 @@ html{
 body {
     width: 100%;
     height: 100%;
+    background-image: url(/LousaDark.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	/* height: 100vh; */
+	margin: -20px 0 50px;
 }
 
 .navbar-dark .bg-dark {
@@ -40,7 +50,7 @@ table {
     position: absolute;
     width: 500px;
     height: 350px;
-    border: 5.5px solid #343A40;
+    border: 5.5px solid black;
     border-spacing: 0rem;
     border-collapse: collapse;
     border-radius: 500px;
@@ -48,12 +58,16 @@ table {
 } 
 
 table thead{
-    background-color: #343A40;
+    background-color: black;
 }
 
 table tfoot{
-    background-color: #343A40;
+    background-color: black;
     text-align: end;
+}
+
+table tbody{
+    background-color: #fff;
 }
 
 table thead tr th{
@@ -90,3 +104,5 @@ table tbody tr td{
   .btn-adicionar i {
     margin-right: 2px;
   }
+
+  
